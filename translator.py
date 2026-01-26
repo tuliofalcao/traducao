@@ -12,7 +12,7 @@ textflags = pymupdf.TEXT_DEHYPHENATE
 to_portuguese = GoogleTranslator(source="en", target="pt")
 
 # Open the document
-doc = pymupdf.open("Young_Childrens_Experience_in_Unplugged_Activitie.pdf")
+doc = pymupdf.open("Integrating_unplugged_and_plugged_activities_for_h.pdf")
 
 
 # Define an Optional Content laer in the document named "Portuguese"
@@ -41,7 +41,7 @@ for page in doc:
         )
 
 doc.subset_fonts()
-doc.ez_save("Young_Childrens_Experience_in_Unplugged_Activitie_-_portuguese_-_.pdf")
+doc.ez_save("Integrating_unplugged_and_plugged_activities_for_h_-_portuguese_-_.pdf")
 
         
 
